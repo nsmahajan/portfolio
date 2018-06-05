@@ -61,17 +61,14 @@ body {
 
 .content{
   position: absolute;
-  bottom: 50px;
+  padding-bottom: 50px;
   top: 70px;
-  overflow: auto;
 }
 
 #carouselContainer{
   position: absolute;
-  bottom: 49px;
+  padding-bottom: 49px;
   top: 70px;
-  width:100%;
-  overflow: auto;
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -79,8 +76,6 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
-  top: 50%;
-transform: translateY(-50%);
   z-index: 10;
 }
 
