@@ -54,6 +54,10 @@ body {
   font-size: 1.5em;
 }
 
+#contactTitle{
+  font-size: 1.5em;
+}
+
 #aboutMeText{
   font-size: 1em;
   line-height: 1em;
@@ -61,15 +65,10 @@ body {
 
 .content{
   position: absolute;
-  padding-bottom: 50px;
+  padding-bottom: 45px;
   top: 70px;
 }
 
-#carouselContainer{
-  position: absolute;
-  padding-bottom: 49px;
-  top: 70px;
-}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -130,4 +129,12 @@ body {
   color: #fff;
     background-color: #15C3FF;
     border-color: #15C3FF;
+}
+
+.idCardImage{
+  max-width:50px;
+}
+
+.phoneImage{
+  max-width:40px;
 }
