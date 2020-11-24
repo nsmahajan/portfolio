@@ -14,6 +14,13 @@ body {
       max-width: 200px;
 }
 
+.logo{
+  position: fixed;
+  z-index: 1031;
+  right: 10px;
+  top: 5px;
+}
+
 .img-circle {
     border-radius: 50%;
 }
@@ -44,13 +51,6 @@ body {
   height:50px;
   width: 100%;
   background-color: #343a40;
-}
-
-.logo{
-  margin-right: 1%;
-}
-.mylogo{
-  max-width: 50px;
 }
 
 #aboutTitle, #pastExperience{
